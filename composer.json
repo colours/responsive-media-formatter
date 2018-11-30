@@ -1,0 +1,8 @@
+{
+    "name": "colours/responsive-media-formatter",
+    "keywords": ["Drupal"],
+    "description": "Drupal 8 module that provides responsive media formatter for media image",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "require": {}
+}
