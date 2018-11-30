@@ -1,0 +1,8 @@
+name: 'Responsive media formatter'
+type: module
+description: 'Provides responsive media formatter for media image'
+core: 8.x
+package: 'Colours'
+dependencies:
+  - media
+  - responsive_image

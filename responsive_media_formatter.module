@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains responsive_media_formatter.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function responsive_media_formatter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the responsive_media_formatter module.
+    case 'help.page.responsive_media_formatter':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides responsive media formatter for media image') . '</p>';
+      return $output;
+
+    default:
+  }
+}
